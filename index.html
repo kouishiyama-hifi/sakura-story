@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>桜花学園ラブストーリー</title>
+    <link rel="stylesheet" href="css/style.css?v=7">
+</head>
+<body>
+    <div id="game-container">
+        <!-- タイトル画面 -->
+        <div id="title-screen" class="screen active">
+            <div class="title-bg">
+                <div class="sakura-container" id="sakura-title"></div>
+                <h1 class="game-title">桜花学園<br>ラブストーリー</h1>
+                <p class="game-subtitle">〜 三年間の恋物語 〜</p>
+                <div class="title-menu">
+                    <button class="menu-btn" id="btn-newgame">はじめから</button>
+                    <button class="menu-btn" id="btn-loadgame">つづきから</button>
+                    <button class="menu-btn" id="btn-gallery">ギャラリー</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- メイン画面（ADVパート） -->
+        <div id="adv-screen" class="screen">
+            <div class="adv-bg" id="adv-bg">
+                <div class="character-area">
+                    <div class="character-sprite" id="char-left"></div>
+                    <div class="character-sprite" id="char-center"></div>
+                    <div class="character-sprite" id="char-right"></div>
+                </div>
+                <!-- イベントスチル -->
+                <div class="event-cg" id="event-cg"></div>
+                <!-- テキストウィンドウ -->
+                <div class="text-window" id="text-window">
+                    <div class="speaker-name" id="speaker-name"></div>
+                    <div class="message-text" id="message-text"></div>
+                    <div class="click-indicator" id="click-indicator">▼</div>
+                </div>
+                <!-- 選択肢 -->
+                <div class="choices-container" id="choices-container"></div>
+                <!-- メガネHUD（好感度AR表示） -->
+                <div class="glasses-hud" id="glasses-hud">
+                    <div class="glasses-frame-tl"></div>
+                    <div class="glasses-frame-tr"></div>
+                    <div class="glasses-frame-br"></div>
+                    <div class="glasses-frame-bl"></div>
+                    <div class="glasses-readings" id="glasses-readings"></div>
+                </div>
+                <!-- UI ボタン -->
+                <div class="adv-ui-buttons">
+                    <button class="ui-btn" id="btn-save">セーブ</button>
+                    <button class="ui-btn" id="btn-load">ロード</button>
+                    <button class="ui-btn" id="btn-status">ステータス</button>
+                    <button class="ui-btn" id="btn-backlog">バックログ</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 育成画面 -->
+        <div id="training-screen" class="screen">
+            <div class="training-bg">
+                <div class="training-header">
+                    <div class="date-display" id="training-date"></div>
+                    <div class="period-display" id="training-period"></div>
+                </div>
+                <div class="training-content">
+                    <div class="stats-panel" id="stats-panel"></div>
+                    <div class="action-panel">
+                        <h2 class="panel-title">行動を選んでください</h2>
+                        <div class="action-grid" id="action-grid"></div>
+                    </div>
+                    <div class="schedule-panel">
+                        <h3>今週の予定</h3>
+                        <div id="weekly-events"></div>
+                    </div>
+                </div>
+                <div class="training-footer">
+                    <button class="ui-btn" id="btn-training-status">ステータス詳細</button>
+                    <button class="ui-btn" id="btn-training-save">セーブ</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ステータス画面 -->
+        <div id="status-screen" class="screen">
+            <div class="status-bg">
+                <h2 class="status-title">ステータス</h2>
+                <div class="status-content">
+                    <div class="player-stats" id="player-stats"></div>
+                    <div class="heroine-affection" id="heroine-affection"></div>
+                </div>
+                <button class="menu-btn" id="btn-status-close">戻る</button>
+            </div>
+        </div>
+
+        <!-- セーブ/ロード画面 -->
+        <div id="saveload-screen" class="screen">
+            <div class="saveload-bg">
+                <h2 class="saveload-title" id="saveload-title">セーブ</h2>
+                <div class="save-slots" id="save-slots"></div>
+                <button class="menu-btn" id="btn-saveload-close">戻る</button>
+            </div>
+        </div>
+
+        <!-- ギャラリー画面 -->
+        <div id="gallery-screen" class="screen">
+            <div class="gallery-bg">
+                <h2 class="gallery-title">イベントギャラリー</h2>
+                <div class="gallery-grid" id="gallery-grid"></div>
+                <button class="menu-btn" id="btn-gallery-close">戻る</button>
+            </div>
+        </div>
+
+        <!-- バックログ画面 -->
+        <div id="backlog-screen" class="screen">
+            <div class="backlog-bg">
+                <h2 class="backlog-title">バックログ</h2>
+                <div class="backlog-content" id="backlog-content"></div>
+                <button class="menu-btn" id="btn-backlog-close">戻る</button>
+            </div>
+        </div>
+
+        <!-- エンディング画面 -->
+        <div id="ending-screen" class="screen">
+            <div class="ending-bg" id="ending-bg">
+                <div class="ending-content" id="ending-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/engine.js?v=4"></script>
+    <script src="js/characters.js?v=4"></script>
+    <script src="js/scenarios.js?v=4"></script>
+    <script src="js/training.js?v=4"></script>
+    <script src="js/ui.js?v=5"></script>
+    <script src="js/main.js?v=4"></script>
+</body>
+</html>
