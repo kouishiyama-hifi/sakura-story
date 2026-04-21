@@ -109,50 +109,50 @@ const Characters = {
     -------------------------------------------------- */
     cgMeta: {
         // ─── メガネ関連 ───
-        'cg_glasses_found':       { file: 'glasses_found.png',      title: '不思議なメガネ',      bgFallback: 'linear-gradient(135deg,#1a0a2e,#4a1a6b)' },
-        'cg_glasses_numbers':     { file: 'glasses_numbers.png',     title: '浮かび上がる数字',    bgFallback: 'linear-gradient(135deg,#0d0221,#1a237e)' },
+        'cg_glasses_found':       { file: 'glasses_found.jpg',      title: '不思議なメガネ',      bgFallback: 'linear-gradient(135deg,#1a0a2e,#4a1a6b)' },
+        'cg_glasses_numbers':     { file: 'glasses_numbers.jpg',     title: '浮かび上がる数字',    bgFallback: 'linear-gradient(135deg,#0d0221,#1a237e)' },
 
         // ─── 通常イベント ───
-        'cg_sakuragi_meet':       { file: 'sakuragi_meet.png',       title: '桜の下での出会い',    bgFallback: 'linear-gradient(180deg,#FCE4EC,#F48FB1)' },
-        'cg_fumino_library':      { file: 'fumino_library.png',      title: '図書室の約束',        bgFallback: 'linear-gradient(180deg,#5D4037,#8D6E63)' },
-        'cg_hinata_run':          { file: 'hinata_run.png',          title: 'グラウンドの笑顔',    bgFallback: 'linear-gradient(180deg,#64B5F6,#A5D6A7)' },
-        'cg_sakuragi_rooftop':    { file: 'sakuragi_rooftop.png',    title: '夕暮れの屋上',        bgFallback: 'linear-gradient(180deg,#FF6F00,#FFC107)' },
-        'cg_fumino_rain':         { file: 'fumino_rain.png',         title: '雨の日の涙',          bgFallback: 'linear-gradient(180deg,#546E7A,#90A4AE)' },
-        'cg_hinata_sunset':       { file: 'hinata_sunset.png',       title: '夕焼けの告白',        bgFallback: 'linear-gradient(180deg,#E65100,#FFC107)' },
-        'cg_sakuragi_festival':   { file: 'sakuragi_festival.png',   title: '文化祭の夜',          bgFallback: 'linear-gradient(180deg,#1a0a2e,#4A148C)' },
-        'cg_fumino_starry':       { file: 'fumino_starry.png',       title: '星降る夜に',          bgFallback: 'linear-gradient(180deg,#0d0221,#2d1b69)' },
-        'cg_hinata_beach':        { file: 'hinata_beach.png',        title: '夏の海',              bgFallback: 'linear-gradient(180deg,#039BE5,#FFE082)' },
+        'cg_sakuragi_meet':       { file: 'sakuragi_meet.jpg',       title: '桜の下での出会い',    bgFallback: 'linear-gradient(180deg,#FCE4EC,#F48FB1)' },
+        'cg_fumino_library':      { file: 'fumino_library.jpg',      title: '図書室の約束',        bgFallback: 'linear-gradient(180deg,#5D4037,#8D6E63)' },
+        'cg_hinata_run':          { file: 'hinata_run.jpg',          title: 'グラウンドの笑顔',    bgFallback: 'linear-gradient(180deg,#64B5F6,#A5D6A7)' },
+        'cg_sakuragi_rooftop':    { file: 'sakuragi_rooftop.jpg',    title: '夕暮れの屋上',        bgFallback: 'linear-gradient(180deg,#FF6F00,#FFC107)' },
+        'cg_fumino_rain':         { file: 'fumino_rain.jpg',         title: '雨の日の涙',          bgFallback: 'linear-gradient(180deg,#546E7A,#90A4AE)' },
+        'cg_hinata_sunset':       { file: 'hinata_sunset.jpg',       title: '夕焼けの告白',        bgFallback: 'linear-gradient(180deg,#E65100,#FFC107)' },
+        'cg_sakuragi_festival':   { file: 'sakuragi_festival.jpg',   title: '文化祭の夜',          bgFallback: 'linear-gradient(180deg,#1a0a2e,#4A148C)' },
+        'cg_fumino_starry':       { file: 'fumino_starry.jpg',       title: '星降る夜に',          bgFallback: 'linear-gradient(180deg,#0d0221,#2d1b69)' },
+        'cg_hinata_beach':        { file: 'hinata_beach.jpg',        title: '夏の海',              bgFallback: 'linear-gradient(180deg,#039BE5,#FFE082)' },
 
         // ─── エンディング（通常バージョン） ───
-        'cg_sakuragi_ending':     { file: 'sakuragi_ending.png',     title: '永遠の花',            bgFallback: 'linear-gradient(180deg,#FCE4EC,#EC407A)' },
-        'cg_fumino_ending':       { file: 'fumino_ending.png',       title: '物語の続き',          bgFallback: 'linear-gradient(180deg,#E3F2FD,#42A5F5)' },
-        'cg_hinata_ending':       { file: 'hinata_ending.png',       title: '太陽と共に',          bgFallback: 'linear-gradient(180deg,#FFF3E0,#FF9800)' },
+        'cg_sakuragi_ending':     { file: 'sakuragi_ending.jpg',     title: '永遠の花',            bgFallback: 'linear-gradient(180deg,#FCE4EC,#EC407A)' },
+        'cg_fumino_ending':       { file: 'fumino_ending.jpg',       title: '物語の続き',          bgFallback: 'linear-gradient(180deg,#E3F2FD,#42A5F5)' },
+        'cg_hinata_ending':       { file: 'hinata_ending.jpg',       title: '太陽と共に',          bgFallback: 'linear-gradient(180deg,#FFF3E0,#FF9800)' },
 
         // ─── 真エンディング（メガネ外し後） ───
-        'cg_sakuragi_true_end':   { file: 'sakuragi_true_end.png',   title: '素顔の彩華',          bgFallback: 'linear-gradient(180deg,#880E4F,#FCE4EC)' },
-        'cg_fumino_true_end':     { file: 'fumino_true_end.png',     title: '素顔の栞',            bgFallback: 'linear-gradient(180deg,#1565C0,#E3F2FD)' },
-        'cg_hinata_true_end':     { file: 'hinata_true_end.png',     title: '素顔の陽葵',          bgFallback: 'linear-gradient(180deg,#E65100,#FFF3E0)' },
+        'cg_sakuragi_true_end':   { file: 'sakuragi_true_end.jpg',   title: '素顔の彩華',          bgFallback: 'linear-gradient(180deg,#880E4F,#FCE4EC)' },
+        'cg_fumino_true_end':     { file: 'fumino_true_end.jpg',     title: '素顔の栞',            bgFallback: 'linear-gradient(180deg,#1565C0,#E3F2FD)' },
+        'cg_hinata_true_end':     { file: 'hinata_true_end.jpg',     title: '素顔の陽葵',          bgFallback: 'linear-gradient(180deg,#E65100,#FFF3E0)' },
     },
 
     /* --------------------------------------------------
        背景メタデータ
     -------------------------------------------------- */
     bgMeta: {
-        'bg-classroom':   { file: 'bg_classroom.png',   cssClass: 'bg-classroom',   title: '教室' },
-        'bg-schoolyard':  { file: 'bg_schoolyard.png',  cssClass: 'bg-schoolyard',  title: '校庭' },
-        'bg-rooftop':     { file: 'bg_rooftop.png',     cssClass: 'bg-rooftop',     title: '屋上' },
-        'bg-library':     { file: 'bg_library.png',     cssClass: 'bg-library',     title: '図書室' },
-        'bg-gym':         { file: 'bg_gym.png',         cssClass: 'bg-gym',         title: '体育館' },
+        'bg-classroom':   { file: 'bg_classroom.jpg',   cssClass: 'bg-classroom',   title: '教室' },
+        'bg-schoolyard':  { file: 'bg_schoolyard.jpg',  cssClass: 'bg-schoolyard',  title: '校庭' },
+        'bg-rooftop':     { file: 'bg_rooftop.jpg',     cssClass: 'bg-rooftop',     title: '屋上' },
+        'bg-library':     { file: 'bg_library.jpg',     cssClass: 'bg-library',     title: '図書室' },
+        'bg-gym':         { file: 'bg_gym.jpg',         cssClass: 'bg-gym',         title: '体育館' },
         'bg-park':        { file: '',                   cssClass: 'bg-park',        title: '公園' },
-        'bg-sunset':      { file: 'bg_winter.png',      cssClass: 'bg-sunset',      title: '夕暮れ' },
-        'bg-sakura':      { file: 'bg_sakura.png',      cssClass: 'bg-sakura',      title: '桜' },
-        'bg-night':       { file: 'bg_winter.png',      cssClass: 'bg-night',       title: '夜' },
-        'bg-hallway':     { file: 'bg_classroom.png',   cssClass: 'bg-hallway',     title: '廊下' },
-        'bg-festival':    { file: 'bg_festival.png',    cssClass: 'bg-festival',    title: '祭り' },
-        'bg-graduation':  { file: 'bg_graduation.png',  cssClass: 'bg-graduation',  title: '卒業式' },
-        'bg-beach':       { file: 'bg_beach.png',       cssClass: 'bg-beach',       title: '海' },
-        'bg-pool':        { file: 'bg_pool.png',        cssClass: 'bg-pool',        title: 'プール' },
-        'bg-winter':      { file: 'bg_winter.png',      cssClass: 'bg-winter',      title: '冬' },
+        'bg-sunset':      { file: 'bg_winter.jpg',      cssClass: 'bg-sunset',      title: '夕暮れ' },
+        'bg-sakura':      { file: 'bg_sakura.jpg',      cssClass: 'bg-sakura',      title: '桜' },
+        'bg-night':       { file: 'bg_winter.jpg',      cssClass: 'bg-night',       title: '夜' },
+        'bg-hallway':     { file: 'bg_classroom.jpg',   cssClass: 'bg-hallway',     title: '廊下' },
+        'bg-festival':    { file: 'bg_festival.jpg',    cssClass: 'bg-festival',    title: '祭り' },
+        'bg-graduation':  { file: 'bg_graduation.jpg',  cssClass: 'bg-graduation',  title: '卒業式' },
+        'bg-beach':       { file: 'bg_beach.jpg',       cssClass: 'bg-beach',       title: '海' },
+        'bg-pool':        { file: 'bg_pool.jpg',        cssClass: 'bg-pool',        title: 'プール' },
+        'bg-winter':      { file: 'bg_winter.jpg',      cssClass: 'bg-winter',      title: '冬' },
         'bg-dark':        { file: '',                   cssClass: 'bg-dark',        title: '暗闇' },
     },
 };
