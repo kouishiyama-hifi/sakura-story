@@ -64,7 +64,7 @@ body {
     width: 100%;
     height: 100%;
     background:
-        url('../images/backgrounds/title.png') center center / cover no-repeat,
+        url('../images/backgrounds/title.jpg') center center / cover no-repeat,
         linear-gradient(180deg, #1a0a2e 0%, #2d1b4e 30%, #e8a0bf 70%, #fce4ec 100%);
     display: flex;
     flex-direction: column;
